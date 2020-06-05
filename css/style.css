@@ -1,0 +1,287 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* ************************************* */
+.bg-light {
+    background-color: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #FFF;
+    padding-right: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FFF;
+    
+}
+/* ************************************ */
+.bg-home {
+    background-image: url('../images/bg-image-28.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.bg-home2 {
+    background-image: url('../images/bg-image-29.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+}
+.bg-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center; 
+}
+.bg-text h1{
+    color: #FFF;
+    font-size: 100px;
+    letter-spacing: -3px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-text p{
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-text button{
+    padding: 10px 20px;
+    
+}
+.btn-serv{
+    background-color: transparent;
+    border-color: #FFF;
+    margin-left: 15px;
+}
+.btn-serv:hover{
+    background-color: transparent;
+    border-color: #FFF;
+}
+/* ********************************** */
+.Who-We-Are {
+    margin-top: 50px;
+    height: 400px;
+}
+.content p{
+    font-size: 12px;
+}
+.content h2{
+    line-height: 30px;
+}
+.content span{
+    color: #00c3da;
+}
+.content button{
+    font-size: 12px;
+    padding: 15px 25px;
+    border-radius: 0%;
+}
+.content button:hover{
+    background-color: #000;
+    color: #FFF;
+}
+
+/* ********************************** */
+.Team{
+    margin-bottom: 40px;
+}
+.Team h2 , .Price h2{
+    font-weight: 900;
+    color: #1f1f1f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    letter-spacing: -1px;
+    line-height: 1.3;
+}
+
+.content-Team{
+    position: relative;
+    width: 100%;
+}
+.overlay-Team{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00c3da;
+}
+
+.content-Team:hover .overlay-Team {
+    opacity: 0.8;
+}
+  .text-top , .text-bottom{
+      position: absolute;
+  }
+  .text-top {
+      top: 0;
+      padding: 10px; 
+  }
+  .text-bottom{
+      bottom: 0; 
+      color:#FFF ;
+  }
+  .text-bottom h4{ 
+      font-size: 13px;
+      margin-bottom: 0;
+      font-weight: 900;
+  }
+  .text-bottom span{ 
+    font-size: 12px;
+    margin-left: 10px;
+}
+  .text-top ul li{
+      display: inline-block;
+      padding: 5px;
+      font-size: 13px;
+  }
+  .text-top ul li a{
+    color:#FFF; 
+}
+/* ********************************** */
+
+.Services{
+    background-color:#636363 ;
+    padding: 100px 0px;
+}
+.text-service {
+    margin-top: 9rem;
+    color: #FFF;
+}
+.text-service h6{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.what-we-Do h2{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    letter-spacing: -1px;
+    font-size: 38px;
+}
+.Services p{
+    color: #FFF;
+}
+.list-services {
+    margin-top: 5rem;
+}
+.list-services ul{
+    list-style: none;
+    color: #FFF;
+}
+.list-services ul li{
+    padding-bottom: 20px;  
+}
+.list-services ul li i{
+    margin-right: 10px;
+}
+
+/* ***************************************** */
+.Price , .customer{
+    background-color: #F7F7F7;
+}
+.card-price h2{
+    font-size: 45px;
+}
+.card-price span{
+    vertical-align: top;
+    font-size: 25px;
+}
+
+.card-price{
+    background-color: #FFF;
+    padding: 45px 35px;
+}
+.utilities{
+    padding-top: 15px;
+}
+.utilities li{
+    list-style: none;
+}
+.utilities ul li {
+    padding-bottom: 15px;
+}
+.card-price button{
+    background-color: #00c3da;
+    border: #00c3da;
+    margin-bottom: 20px;
+}
+.value , .value2 {
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+.value h2 , .value2 h2{
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    margin: 0;
+}
+.value2 h2{
+    color: #00c3da;
+}
+.card-price .best{
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: #00c3da;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFF; 
+}
+.card-price span{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* ***************************************** */
+.customer{
+    height: 100vh;
+}
+.slider-content {
+    position: relative;
+    background-color: #FFF;
+}
+.carousel-indicators li{
+    background-color: #000 !important;
+}
+/* ***************************************** */
+
+footer{
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 50px;
+}
+footer h2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 38px;
+}
+
+footer .btn-info{
+    background-color: #00c3da;
+    border: #00c3da;
+    padding: 10px 20px;
+    font-weight: 900;
+}
